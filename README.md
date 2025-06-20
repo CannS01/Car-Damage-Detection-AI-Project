@@ -114,11 +114,15 @@ A simple and interactive web-based user interface was developed using **Streamli
 - View Orientation: Front or Rear
 - Damage Type: Normal, Crushed, or Breakage
 
+- UI Setup drive link
+https://drive.google.com/file/d/19bh9J3Um4sguqyuehWY7kM_Ncdi62YM7/view?usp=sharing
+
 After uploading an image and clicking the "Detect Damage" button, the pretrained PyTorch model is loaded and run on the input. The predictions are then displayed on screen.
 
 To launch the interface locally:
 
 ```bash
 streamlit run app.py
+
 
 
