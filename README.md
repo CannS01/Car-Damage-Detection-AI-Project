@@ -107,5 +107,18 @@ project/
 https://drive.google.com/file/d/1xwwhOy2Mpm_2mr6HzUwcVLd-88WIytAI/view?usp=sharing
 https://drive.google.com/file/d/11aChmV5i5NeHvT-UnqJN0t5zsP8AkqM8/view?usp=sharing
 
+## User Interface
+
+A simple and interactive web-based user interface was developed using **Streamlit**. The interface allows users to upload a car image and receive instant predictions for:
+
+- View Orientation: Front or Rear
+- Damage Type: Normal, Crushed, or Breakage
+
+After uploading an image and clicking the "Detect Damage" button, the pretrained PyTorch model is loaded and run on the input. The predictions are then displayed on screen.
+
+To launch the interface locally:
+
+```bash
+streamlit run app.py
 
 
