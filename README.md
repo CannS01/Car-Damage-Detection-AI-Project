@@ -87,3 +87,25 @@ Confusion matrices and classification reports were generated for both tasks. Den
 
 ## File Structure
 
+project/
+├── dataset/ # Raw image folders (6 classes)
+├── model/ # Network definitions
+│ ├── multitask_resnet50.py
+│ └── multitask_densenet121.py
+├── utils/
+│ └── dataset.py # Custom Dataset class
+├── train.py # Training loop
+├── evaluate_model.py # Evaluation script
+├── plot_confusion.py # Confusion matrix and loss plot
+├── report.tex # LaTeX report file
+├── multitask_resnet50.pth # Saved ResNet50 model
+├── multitask_densenet121.pth # Saved DenseNet121 model
+└── README.md
+
+## Models and .pth Files drive links
+
+https://drive.google.com/file/d/1xwwhOy2Mpm_2mr6HzUwcVLd-88WIytAI/view?usp=sharing
+https://drive.google.com/file/d/11aChmV5i5NeHvT-UnqJN0t5zsP8AkqM8/view?usp=sharing
+
+
+
